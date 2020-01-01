@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        <header id="cabecalho"
+   ></header>
+
+    
+<footer>
+
+   <button id="btn-click">Exemplo</button>
+   <p> &copy; 2024 - Direitos reservados a Fulado</p>
+</footer>
+
+       // conteudo cont do primeiro projeto (atualizar a partir do footer)
+
+    // aula de JS
+    //exemplo de get Element para mudar a cor
+    //var elemento = document.getElementById("cabecalho")
+    //elemento.style.backgroundColor = "red";
+   
+    // exemplo de creatElement
+    //var elemento = document.getElementById("cabecalho")
+    //var h1 = document.createElement('h1')
+    //h1.textContent = "Exemplo Batata"
+    //h1.style.color = "red";
+    //elemento.append = (h1);
+
+    // exemplo de alerta do JS qdo clicar botão
+    var btnExemplo = document.getElementById('btn-click');
+    btnExemplo.addEventListener('click', () =>{
+       alert('botão clicado');
+    })
+    
+    </script>
+</body>
+</html>
